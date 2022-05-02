@@ -1,21 +1,63 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Bootstrap Starter Page</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+        <title>Clara</title>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
 <body>
 
-  <h1>Hello Coursera!</h1>
+    <div class="container-fluid">
+        <div class="row header">
+            <div class="col-md-3 col-lg-2 ">
+                <button id="domain_button">
+                    <p>Domain</p>
+                    <img src="image/double_arrow.jpg" id="double_arrow" width="" height="30">
+                </button>
+                
+            </div>
+            <div class="col-md-6 col-lg-8">
+                <div id="topic_container">
+                    <img src="image/lightbulb.jpg" id="lightbulb" width="33.2" height="50px">
+                </div>
+            </div>
+            <div class="col-md-3 col-lg-2">
+                <button id="search_button">SEARCH</button>
+            </div>
+        </div>
 
-  <!-- jQuery (Bootstrap JS plugins depend on it) -->
-  <script src="js/jquery-1.11.3.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/script.js"></script>
+        <div class="row content">
+            <div class="col-md-3 col-lg-2" id="filter_column">
+                <h1 class="filter">FILTERS</h1>
+                <div class="filter" id="date">
+                    Date
+                </div>
+                <div class="filter" id= "format">
+                    Format
+                </div>
+                <div class="filter" id= "audience">
+                    Audience
+                </div>
+                <div class="filter" id= "licence">   
+                    Licence
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-8">
+                
+            </div>
+            <div class="col-md-3 col-lg-2" id="pinned">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

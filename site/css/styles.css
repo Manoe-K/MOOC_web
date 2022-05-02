@@ -1,0 +1,102 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+.container-fluid {
+    background-color: #EBEBEB;
+    height: 100%;
+
+    display: flex;
+    flex-flow: column;
+}
+
+
+.row > div {
+    border: 1px dotted black;
+}
+
+.row.header {
+    flex: 0 1 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #2c71aa;
+}
+
+.row.content {
+    flex: 1 1 auto;
+}
+
+#domain_button {
+    margin: 25px 15% 25px 15%;
+    height: 50px;    
+    width: 70%;
+
+    background-color: white;
+    border-radius:7px;
+    border: solid 1px black;
+
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    color: #525252;
+}
+
+#domain_button > p {
+    margin-top: 8px;
+    margin-left: 8px;
+    float: left;
+}
+
+#double_arrow {
+    margin-top: 9px;
+    margin-right: 5px;
+    float: right;
+}
+
+#topic_container {
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 70px;
+    width: 80%; 
+    background-color: white;
+}
+
+#lightbulb {
+    margin: 10px 15px 10px 10px;
+    float: right;
+}
+
+#search_button {
+    margin: 20px 15% 20px 15%;
+    height: 60px;    
+    width: 70%;
+
+    background-color: #f6973e;
+    border-radius:17px;
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+}
+
+#filter_column, #pinned {
+    background-color: #2c71aa;
+}
+
+/*
+#title_filter { }
+*/
+
+.filter {
+    margin-top: 20px;
+    margin-left: 20px;
+
+    color: white;
+}
