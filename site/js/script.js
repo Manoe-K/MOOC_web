@@ -17,7 +17,6 @@ for (i = 0; i < coll.length; i++) {
     coll[i].addEventListener("click", function() {
         var k;
         var toCollapse = this.nextElementSibling;
-        console.log(this.nextElementSibling)
         var lis = toCollapse.getElementsByTagName("li");
         if (toCollapse.toHide === "true") {
             toCollapse.toHide= "false";
