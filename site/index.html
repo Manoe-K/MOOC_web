@@ -36,75 +36,75 @@
                     <p>Date</p>
                 </div>
                 <div class="filter" id= "format">
-                    <p>Format</p>
-                    <ul>
-                        <li>
-                            <input type="checkbox" id="format-cb1" onclick="ts(this)">
-                            <label for="format-cb1">Video</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="format-cb2" onclick="ts(this)">
-                            <label for="format-cb2">Scientific Paper</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="format-cb3" onclick="ts(this)">
-                            <label for="format-cb3">Syllabus</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="format-cb4" onclick="ts(this)">
-                            <label for="format-cb4">Tutorial</label>
-                        </li>
-                        <li>
-                            <input type="checkbox" id="format-cb5" onclick="ts(this)">
-                            <label for="format-cb5">Tool</label>
-                        </li>
-                    </ul>
+                    <p class="collapsible">Format</p>
+                        <ul class="toCollapse" id="format-collapse">
+                            <li hidden>
+                                <input type="checkbox" id="format-cb1" onclick="ts(this)">
+                                <label for="format-cb1">Video</label>
+                            </li>
+                            <li hidden>
+                                <input type="checkbox" id="format-cb2" onclick="ts(this)">
+                                <label for="format-cb2">Scientific Paper</label>
+                            </li>
+                            <li hidden>
+                                <input type="checkbox" id="format-cb3" onclick="ts(this)">
+                                <label for="format-cb3">Syllabus</label>
+                            </li>
+                            <li hidden>
+                                <input type="checkbox" id="format-cb4" onclick="ts(this)">
+                                <label for="format-cb4">Tutorial</label>
+                            </li>
+                            <li hidden>
+                                <input type="checkbox" id="format-cb5" onclick="ts(this)">
+                                <label for="format-cb5">Tool</label>
+                            </li hidden>
+                        </ul>
                 </div>
                 <div class="filter" id= "audience">
-                    <p>Audience</p>
-                    <ul>
-                        <li>
+                    <p class="collapsible">Audience</p>
+                    <ul class="toCollapse" id="audience-collapse">
+                        <li hidden>
                             <input type="checkbox" id="audience-cb1" onclick="ts(this)">
                             <label for="audience-cb1">blank</label>
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="audience-cb2" onclick="ts(this)">
                             <label for="audience-cb2">blank</label>
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="audience-cb3" onclick="ts(this)">
                             <label for="audience-cb3">blank</label>
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="audience-cb4" onclick="ts(this)">
                             <label for="audience-cb4">blank</label>
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="audience-cb5" onclick="ts(this)">
                             <label for="audience-cb5">blank</label>
                         </li>
                     </ul>
                 </div>
                 <div class="filter" id= "licence">   
-                    <p>Licence</p>
-                    <ul>
-                        <li>
+                    <p class="collapsible">Licence</p>
+                    <ul class="toCollapse" id="licence-collapse">
+                        <li hidden>
                             <input type="checkbox" id="licence-cb1" onclick="ts(this)">
                             <label for="licence-cb1">blank</label>
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="licence-cb2" onclick="ts(this)">
                             <label for="licence-cb2">blank</label>
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="licence-cb3" onclick="ts(this)">
                             <label for="licence-cb3">blank</label>
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="licence-cb4" onclick="ts(this)">
                             <label for="licence-cb4">blank</label> 
                         </li>
-                        <li>
+                        <li hidden>
                             <input type="checkbox" id="licence-cb5" onclick="ts(this)">
                             <label for="licence-cb5">blank</label>
                         </li>
@@ -120,8 +120,7 @@
         </div>
     </div>
 
-    <!-- jQuery (Bootstrap JS plugins depend on it) -->
-    <script src="js/jquery-1.11.3.min.js"></script>
+    <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
 </body>
